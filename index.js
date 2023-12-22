@@ -16,5 +16,14 @@ app.use(cors());
 
 app.listen(PORT,()=>{console.log(`Server is running on ${PORT} 😎`)})
 
+app.get("/", (req, res) => {
+    try {
+      res.send("Server for Real Estate 📊 is working totally fine😎🥳🤗");
+    } catch (err) {
+      console.log(err);
+    }
+   });
+   
+
 app.use("/api/user",userRoute)
 app.use("/api/residency",residencyRoute)
