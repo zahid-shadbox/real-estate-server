@@ -1,0 +1,171 @@
+# Node modules
+node_modules/
+
+# Logs
+logs
+*.log
+
+# Dependency directories
+pids
+lock
+lib-cov
+*.seed
+*.pid
+*.yml
+
+# Optional npm cache directory
+.npm
+
+# Optional REPL history
+.node_repl_history
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# User-specific files
+*.sublime-workspace
+*.suo
+*.user
+*.userosscache
+*.sln
+*.userprefs
+*.vscode
+*.idea/
+.project
+.settings/
+npm-debug.log*
+
+# Debug logs
+debug.log
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# Grunt intermediate storage (https://gruntjs.com/creating-plugins#storing-task-files)
+.grunt/
+
+# Bower dependency directory (https://bower.io/)
+bower_components/
+
+# node-waf configuration
+.lock-wscript
+
+# Compiled binary addons (https://nodejs.org/api/addons.html)
+build/Release
+
+# Dependency directories
+.jest
+.cache
+
+# Environment variables file
+.env
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn integrity file
+.yarn-integrity
+
+# dotenv environment variables file
+.env
+
+# Next.js build output
+.next/
+out/
+
+# Nuxt.js build / generate output
+.nuxt/
+dist/
+
+# Gatsby files
+.cache/
+public/
+
+# Serverless directories
+.serverless/
+
+# FuseBox cache
+.fusebox/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Parcel cache
+.cache/
+dist/
+
+# Rollup cache
+.rollup-cache/
+
+# Puppeteer
+.puppeteer/
+
+# Gramps build
+.gramps/
+
+# Compiled Python files
+__pycache__/
+*.pyc
+
+# Python
+*.pyc
+*.pyo
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Visual Studio Code
+.vscode/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Android
+android/
+ios/
+
+# IDE (e.g., PyCharm)
+.idea/
+
+# Temporary files
+*.swp
+*.bak
+*.tmp
+
+# Webpack
+node_modules/
+dist/
+.cache/
+.history/
+.idea/
+
+# Parcel
+.parcel-cache/
+
+# Yarn
+.yarn/*
+!.yarn/patches
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
+yarn-error.log
+yarn.lock
+
+# ESLint
+.eslintcache
+.eslintcache.*
+.eslintcache/*
+
+# Docker
+.dockerignore
+.dockerenv
+.dockerinit
+.docker/ 
